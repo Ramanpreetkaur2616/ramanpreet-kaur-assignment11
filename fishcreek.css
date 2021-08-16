@@ -1,0 +1,123 @@
+body {
+    background-color: #5280C5;
+    color: #003366;
+    font-family: Verdana,Arial,sans-serif;
+    background-image: url(gradientblue.jpg);
+}
+header {
+    background-color: #000066;
+    color: #F0F0F0;
+   display: block;
+    background-image: url(bigfish.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+    padding: 0.2em;
+    text-shadow: #cccccc;
+    line-height: 250%;
+    text-indent: 1em;
+    margin-bottom: 0;
+}
+nav {
+    font-weight: bold;
+    padding: 5px;
+    float: left;
+    width: 180px;
+    display: block;
+}
+dt {
+    color: #5280C5;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman';
+}
+#class {
+    font-weight: bold;
+    color: #5280C5;
+    font-family: Georgia, 'Times New Roman';
+    text-shadow: 1px 1px 1px #667;
+}
+footer {
+    font-size: small;
+    font-style: italic;
+    background-color: #AEC3E3;
+    text-align: center;
+    padding: 1em;
+    margin-left: 180px;
+    display: block;
+}
+li {
+    font-weight: bold;
+    color:#5280C5 ;
+}
+span {
+    color:#003366 ;
+}
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #F0F0F0;
+    min-width: 700px;
+}
+img {
+    border: none;
+}
+main {
+    background-color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 180px;
+    border: 1px;
+    border-color: #AEC3E3;
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+nav a:link {color: #000066}
+nav a:visited {color: #5280C5;}
+nav a:hover {color: #3262a3;}
+
+nav ul {
+     list-style-type: none;
+    
+}
+nav a:link {text-decoration: none;}
+nav a:visited {text-decoration:none;}
+nav a:hover{text-decoration: none;}
+
+table {
+    margin: 1em ;
+    border: 2px solid #000066;
+    border-collapse: collapse;
+
+}
+table, td, th{
+    padding: 0.5em ;
+    border: 1px solid #000066;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+input, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+#mySubmit {
+    margin-left: 9.5em;
+}
+video {
+    float: right;
+    margin: 1em;
+    
+}
